@@ -11,7 +11,7 @@ import { catchError, retry, tap } from 'rxjs/operators';
 })
 export class AppComponent implements OnInit {
   private clientId: string = '240635228849-lse7s97utmvpvpfmlpjc0gb120uggluk.apps.googleusercontent.com';
-  private clientSecret: string = 'i2qY8jAnIyoxIwIA8qhm6HvH';
+  private clientSecret: string = '***';
   authCode: string = '';
   redirect_uri : string = 'http://localhost:4200/callback'
 
